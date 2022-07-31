@@ -22,6 +22,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    
 }
 
 html::-webkit-scrollbar{
@@ -37,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background:#111;
+    background:#111 !important;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -48,22 +49,22 @@ section{
 }
 
 .btn{
-    padding:.7rem 3rem;
-    background:#333;
-    color:#fff;
+    padding:.7rem 3rem !important;
+    background:#333 !important;
+    color:#fff !important;
     cursor: pointer;
     margin-top: 1rem;
-    font-size: 2rem;
-    border-radius: 5rem;
+    font-size: 2rem !important;
+    border-radius: 5rem !important;
 }
 
 .btn i{
     padding:0 .5rem;
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--yellow) !important;
 }
 
 .heading{
@@ -77,6 +78,11 @@ section{
 
 .heading span{
     color:var(--yellow);
+}
+.headings{
+    color:var(--yellow);
+    margin: 30px 0px;
+    font-size: 30px;
 }
 
 header{
@@ -113,23 +119,24 @@ header .user .post{
 }
 
 header .navbar{
-    width:100%;
+    width:100% !important;
 }
 
 header .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:1rem 5rem !important;
 }
 
 
 header .navbar ul li a{
     display: block;
-    padding:1rem;
-    margin:1.5rem 0;
+    padding:1.5rem 7rem ;
+    margin:1.5rem ;
     background:#333;
     color:#fff;
-    font-size: 2rem;
+    font-size: 2rem !important;
     border-radius: 5rem;
+    text-decoration: none;
 }
 
 header .navbar ul li a:hover{
@@ -142,8 +149,8 @@ header .navbar ul li a:hover{
     background:#333;
     color:#fff;
     cursor: pointer;
-    font-size: 2.5rem;
-    padding:1rem 1.5rem;
+    font-size: 2.5rem !important;
+    padding:1rem 1.5rem !important;
     z-index: 1000;
     display: none;
 }
@@ -337,7 +344,8 @@ header .navbar ul li a:hover{
     text-transform: capitalize;
 }
 
-.contact .row form .message{
+.contact .row form .mes
+sage{
     height: 15rem;
     resize: none;
 }
@@ -363,21 +371,253 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 }
 
-.top{
+/* .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
     z-index: 100;
     display: none;
+} */
+
+
+.skills-card{
+    position: relative;
+    margin: 2rem;
+}
+.skills-card .skill-img {
+   display: block;
+   margin: auto;
+    width: 20rem;
+    min-height: 20rem;
+
+
+}
+.skill-name{
+    text-align: center;
+    color:#f9ca24;
+    margin-top: 4rem;
+
+}
+.skill-info{
+    text-align: center;
+    color:#fff;
+    margin: 1rem;
+    font-size: 1.4em;
+
+}
+.skill-level{
+    position: absolute;
+    top: 8rem;
+    right: 0;
+    min-width: 10rem;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    border-radius: 50rem;
+    border: 10px solid ;
+    
+}
+.skill-7 .skills-card .skill-img {
+    color: white;
+}
+.skill-1 .skill-level{
+
+    background: #52ff4f28;
+    border-color: #52ff4f;
+    color: #52ff4f;
+}
+
+.skill-2 .skill-level{
+    background: #ff4f4f28;
+    border-color: #ffed4f;
+    color: #ffed4f
+}
+
+.skill-3 .skill-level{
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+
+.skill-4 .skill-level{
+    background: #fa069828;
+    border-color:#fa0698;
+    color: #fa0698;
+}
+
+.skill-5 .skill-level{
+    background: #ffec4f28;
+    border-color:#461cd2;
+    color: #461cd2;
+}
+
+.skill-6 .skill-level{
+    background: #4f34d528;
+    border-color:#da0e0e;
+    color: #da0e0e
+}
+
+.skill-7 .skill-level{
+    background: #00ecfd28;
+    border-color: #00ecfd;
+    color: #00ecfd;
+}
+
+.skill-8 .skill-level{
+    background: #fa02ab28;
+    border-color: #fa02ab;
+    color: #fa02ab;
 }
 
 
+.progress-icon{
+    font-size: 40px;
+}
+
+.progress{
+    height: 8px !important;
+}
+.progress-title{
+    color:#fff;
+
+}
+.progress-bar{
+
+    font-weight: bolder;
+    font-size: 10px;
+    
+    
+}
+.html-bar{
+
+    background-color:#fd0015;
+    animation: html-bar 3s;
+}
+
+.css-bar{
+    
+    animation: css-bar 3s;
+}
+.js-bar{
+    
+    animation: js-bar 3s;
+}
+.wordpress-bar{
+    
+    animation: wordpress-bar 3s;
+}
+.bootstrap-bar{
+    
+    animation: bootstrap-bar 3s;
+}
+.tailwind-bar{
+    
+    animation: tailwind-bar 3s;
+}
+.jquery-bar{
+    
+    animation: jquery-bar 3s;
+}
+.react-bar{
+    
+    animation: react-bar 3s;
+}
+
+.progress-icon img{
+    width: 50px;
+    height: 50px;
+}
 
 
-
-
-
-
-
+@keyframes html-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 95%;
+    }
+    
+}
+@keyframes css-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 90%;
+    }
+    
+}
+@keyframes js-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+    }
+    
+}
+@keyframes wordpress-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 85%;
+    }
+    
+}
+@keyframes bootstrap-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 90%;
+    }
+    
+}
+@keyframes tailwind-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 80%;
+    }
+    
+}
+@keyframes jquery-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 75%;
+    }
+    
+}
+@keyframes react-bar {
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 65%;
+    }
+    
+}
 
 
 
@@ -444,12 +684,16 @@ header .navbar ul li a:hover{
         width: 100%;
     }
  
-    .education .box-container .box{
-        width:100%;
+    .education .row .skill-1 .box .skills-card.skill-level{
+        position: absolute;
+        top: 8rem;
+        right: 2rem;
+       
     }
 
     .portfolio .box-container .box{
         width:100%;
+        
     }
 
     .contact .row form{

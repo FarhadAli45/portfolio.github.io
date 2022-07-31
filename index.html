@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,256 +11,435 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
-    
+
+    <!-- Bootstrap Cdn Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
+
 <body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="user">
+            <img src="mypic1.jpeg" alt="">
+            <h3 class="name">Farhad Ali</h3>
+            <p class="post">Front End & Wordpress Developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">Skills</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Farhad Ali</span></h1>
+        <p> I am professional Front end developer and Wordpress Developer more than 2 years. I love what I do and I do
+            what my clients love & work with great clients all over the world to create thoughtful and purposeful
+            websites
+        </p>
+        <a href="#about"><button class="btn">About me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> Me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> Name : </span> Farhad Ali </h3>
+                <h3> <span> Age : </span> 22 </h3>
+                <h3> <span> Qualification : </span> BS(IT) </h3>
+                <h3> <span> post : </span> Front end developer </h3>
+                <h3> <span> Language : </span> English , Urdu , Hindi </h3>
+                <a href="My_CV.pdf"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+            </div>
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>2+</span>
+                    <h3>years of experience</h3>
+                </div>
+
+                <div class="box">
+                    <span>10+</span>
+                    <h3>porject completed</h3>
+                </div>
+
+                <div class="box">
+                    <span>5+</span>
+                    <h3>happy clients</h3>
+                </div>
+
+                <div class="box">
+                    <span>5+</span>
+                    <h3>awards won</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <!-- <section class="education" id="education">
+
+        <h1 class="heading"> My <span>Skills</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2017</span>
+                <h3>Microsoft Office</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3> Graphic Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3> Front End Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3> C# developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Android Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Full Stack Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
+                    provident laborum quae, distinctio eaque temporibus!</p>
+            </div>
+            
+        </div> -->
+
+        <section class="education" id="education">
+        
+        <h1 class="heading"> My <span>Skills</span> </h1>
+        <div class="row">    
+            <div class="col-md-5 m-4">
+                <div class="progress-icon mt-4" style="color:#fd5400 ;"><i class="fab fa-html5"></i></div>
+                <h5 class=" progress-title">Html</h5>
+                <div class="progress ">
+                  <div class="progress-bar html-bar" role="progressbar" style="width: 95% ; color:black; background-color:#fd5400;" aria-valuenow="95%"
+                    aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:#a0fd00;"><i class="fab fa-css3"></i></div>
+                <h5 class=" progress-title">Css</h5>
+                <div class="progress">
+                  <div class="progress-bar css-bar " role="progressbar" style="width: 90%; color:black; background-color:#a0fd00;"
+                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:#fdf900"><i class="fab fa-js"></i></div>
+                <h5 class=" progress-title">Javascript</h5>
+                <div class="progress">
+                  <div class="progress-bar js-bar " role="progressbar" style="width: 70%; color:black; background-color:#fdf900;"
+                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:#0054fd;"><i class="fab fa-wordpress"></i></div>
+                <h5 class=" progress-title">Wordpress</h5>
+                <div class="progress">
+                  <div class="progress-bar wordpress-bar " role="progressbar" style="width: 85%; color:black; background-color:#0054fd;"
+                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+                
+              </div>
+              <div class="col-md-5 m-4">
+                <div class="progress-icon mt-4"style="color:#7600fd;"><i class="fab fa-bootstrap"></i></div>
+                <h5 class=" progress-title">Bootstrap</h5>
+                <div class="progress bar">
+                  <div class="progress-bar bootstrap-bar" role="progressbar" style="width: 90%; color:black; background-color:#7600fd;" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:##00c2fd;"><img src="tailwind-css.svg"  alt=""></div>
+                <h5 class=" progress-title">Tailwind-css</h5>
+                <div class="progress">
+                  <div class="progress-bar tailwind-bar " role="progressbar" style="width: 80%; color:black; background-color:#00c2fd;"
+                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:#5d0a11;"><img src="icons8-jquery.svg" alt=""></div>
+                <h5 class=" progress-title">Jquery</h5>
+                <div class="progress">
+                  <div class="progress-bar jquery-bar " role="progressbar" style="width: 75%; color:black; background-color:#5d0a11;"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+                <div class="progress-icon mt-4"style="color:#e800fd;"><i class="fab fa-react"></i></div>
+                <h5 class=" progress-title">React-js</h5>
+                <div class="progress">
+                  <div class="progress-bar react-bar " role="progressbar" style="width: 65%; color:black; background-color:#e800fd;"
+                    aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+        
+
+
+    <!-- <div class="row">
+        <div class="col-md-3 skill-1">
+                
     
-<!-- header section starts  -->
+                <div class="skills-card"><img class="skill-img" src="icons8-html-5.svg" alt="">
+                    <div class="skill-level">90%</div>
+                    <div class="skill-name">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>Hyper Text Markup Language(HTML) is used for creating web pages </p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="col-md-3 skill-2">
+           
+            
+                <div class="skills-card"><img class="skill-img" src="icons8-css3.svg" alt="">
+                    <div class="skill-level">90%</div>
+                    <div class="skill-name">
+                        <h3>Css</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>Cascating Style sheets (CSS) is used for desgin the web pages </p>
+                    </div>
+                </div>
+            </div>
+        
 
-<header>
+        <div class="col-md-3 skill-3">
+               
+    
+                <div class="skills-card"><img class="skill-img" src="icons8-javascript-logo.svg" alt="">
+                    <div class="skill-level">70%</div>
+                    <div class="skill-name">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>Javascript is a Programming that is used for give the functionality to the Web Page </p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="col-md-3 skill-4">
+                
+    
+                <div class="skills-card"><img class="skill-img" src="icons8-wordpress.svg" alt="">
+                    <div class="skill-level">90%</div>
+                    <div class="skill-name">
+                        <h3>Wordpress</h3>
+                    </div>
+                    <div class="skill-info skill-4">
+                        <p>Wordpress is a CMS content management system this is used for buliting the web pages</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-md-3 skill-5">
+    
+                <div class="skills-card"><img class="skill-img" src="icons8-bootstrap (1).svg" alt="">
+                    <div class="skill-level">90%</div>
+                    <div class="skill-name">
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>Bootstrap is a most popular framework of the Css it is used for designing the web pages</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3 skill-6">
+    
+                <div class="skills-card"><img class="skill-img" src="tailwind-css.svg" alt="">
+                    <div class="skill-level">90%</div>
+                    <div class="skill-name">
+                        <h3>Tailwind Css</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>tailwind-css is framework of Css that is used for desiging the web pages</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3 skill-7">
+    
+                <div class="skills-card"><img class="skill-img" src="icons8-jquery(1).svg" alt="">
+                    <div class="skill-level">80%</div>
+                    <div class="skill-name">
+                        <h3>Jquery</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>Jquery is a framework of Javascript that is used to give functionality to the web pages</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-3 skill-8">
+    
+                <div class="skills-card"><img class="skill-img" src="react-js.svg" alt="">
+                    <div class="skill-level">70%</div>
+                    <div class="skill-name">
+                        <h3>Reatc Js</h3>
+                    </div>
+                    <div class="skill-info">
+                        <p>React-js is a most popular framework of Javascript that is used to give functionality to the web pages</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
-    <div class="user">
-        <img src="mypic1.jpeg" alt="">
-        <h3 class="name">Farhad Ali</h3>
-        <p class="post">Front End Developer</p>
-    </div>
+     
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
+    <!-- education section ends -->
 
-</header>
+    <!-- portfolio section starts  -->
 
-<!-- header section ends -->
+    <section class="portfolio" id="portfolio">
 
-<div id="menu" class="fas fa-bars"></div>
+        <h1 class="heading"> My <span>Portfolio</span> </h1>
 
-<!-- home section starts  -->
+        <div class="box-container">
 
-<section class="home" id="home">
+            <div class="box">
+                <a href="port1.html"><img src="portfolio-website (2).jpg" alt=""></a>
+            </div>
 
-    <h3>HI THERE !</h3>
-    <h1>I'M <span>Farhad Ali</span></h1>
-    <p> I am professional Front end developer and Wordpress Developer  more than 2 years. I love what I do and I do what my clients love & work with great clients all over the world to create thoughtful and purposeful websites
-    </p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+            <div class="box">
+                <a href="port2.html"><img src="food-website (2).jpg" alt=""></a>
+            </div>
 
-</section>
+            <div class="box">
+                <a href="port3.html"><img src="shopping website (2).png" alt=""></a>
+            </div>
 
-<!-- home section ends -->
+            <div class="box">
+                <a href="port4.html"><img src="travel-website (2).jpg" alt=""></a>
+            </div>
 
-<!-- about section starts  -->
+            <div class="box">
+                <a href="port5.html"><img src="news-2 (2).jpg" alt=""></a>
+            </div>
 
-<section class="about" id="about">
+            <div class="box">
+                <a href="port6.html"><img src="multi-vendor-website (2).jpg" alt=""></a>
+            </div>
 
-<h1 class="heading"> <span>About</span> Me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> Name : </span> Farhad Ali </h3>
-        <h3> <span> Age : </span> 21 </h3>
-        <h3> <span> Qualification : </span> BS(IT) </h3>
-        <h3> <span> post : </span> Front end developer </h3>
-        <h3> <span> Language : </span> English , Urdu , Hindi </h3>
-        <a href="#"><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
-    </div>
-
-    <div class="counter">
-
-        <div class="box">
-            <span>2+</span>
-            <h3>years of experience</h3>
         </div>
 
-        <div class="box">
-            <span>10+</span>
-            <h3>porject completed</h3>
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts !-->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contact</span> Me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">Contact Info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i>farhadalimemon45@gmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> +923013590799 </h3>
+                     
+                    <h3> <i class="fas fa-map-marker-alt"></i> Hala New, Pakistan - 70120. </h3>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
         </div>
 
-        <div class="box">
-            <span>50+</span>
-            <h3>happy clients</h3>
-        </div>
+    </section>
 
-        <div class="box">
-            <span>5+</span>
-            <h3>awards won</h3>
-        </div>
+    <!-- contact section ends -->
+    
 
-    </div>
+    
 
-</div>
 
-</section>
+    
 
-<!-- about section ends -->
 
-<!-- education section starts  -->
 
-<section class="education" id="education">
 
-<h1 class="heading"> My <span>Skills</span> </h1>
 
-<div class="box-container">
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>Microsoft Office</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2018</span>
-        <h3> Graphic Designer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2019</span>
-        <h3> Front End Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2020</span>
-        <h3> C# developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Android Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2022</span>
-        <h3>Full Stack Developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> My <span>Portfolio</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <img src="port1.webp" alt="">
-    </div>
-
-    <div class="box">
-        <img src="port2.webp" alt="">
-    </div>
-
-    <div class="box">
-        <img src="port3.1.webp" alt="">
-    </div>
-
-    <div class="box">
-        <img src="port4.webp" alt="">
-    </div>
-
-    <div class="box">
-        <img src="port5.webp" alt="">
-    </div>
-
-    <div class="box">
-        <img src="port6.webp" alt="">
-    </div>
-
-</div>
-
-</section>
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-<h1 class="heading"> <span>Contact</span> Me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">Contact Info</h3>
-
-        <div class="info">
-            <h3> <i class="fas fa-envelope"></i>farhadalimemon45@gmail.com </h3>
-            <h3> <i class="fas fa-phone"></i> +923013590799 </h3>
-            <!-- <h3> <i class="fas fa-phone"></i> +111-222-3333 </h3> -->
-            <h3> <i class="fas fa-map-marker-alt"></i> Hala New, Pakistan - 70120. </h3>
-        </div>
-
-    </div>
-
-    <form action="">
-
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="text" placeholder="project" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-
-    </form>
-
-</div>
-
-</section>
-
-<!-- contact section ends -->
-
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="script.js"></script>
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
 
 
 </body>
+
 </html>
