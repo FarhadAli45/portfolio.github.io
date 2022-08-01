@@ -477,6 +477,7 @@ sage{
 
 .progress{
     height: 8px !important;
+    margin-right:20px;
 }
 .progress-title{
     color:#fff;
@@ -485,7 +486,8 @@ sage{
 .progress-bar{
 
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 14px;
+    color:#fff !important;
     
     
 }
