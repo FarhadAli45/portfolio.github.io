@@ -124,17 +124,17 @@ header .navbar{
 
 header .navbar ul{
     list-style: none;
-    padding:1rem 5rem !important;
+    padding:1rem 2.5rem !important;
 }
 
 
 header .navbar ul li a{
     display: block;
-    padding:1.5rem 7rem ;
+    padding:1.5rem 10rem ;
     margin:1.5rem ;
     background:#333;
     color:#fff;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     border-radius: 5rem;
     text-decoration: none;
 }
@@ -243,14 +243,14 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box{
-    width:27rem;
+    width:35rem;
     margin:4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
 }
 
-.education .box-container .box span{
+.education .box-container .box span.year{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -259,9 +259,19 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box h3{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color:#fff;
     padding-top: 1.5rem;
+}
+
+.detail-title{
+    color : var(--yellow);
+    font-size: 1.3rem;;
+}
+.detail{
+    color:white;
+    font-size: 1.3rem;
+
 }
 
 .education .box-container .box p{
